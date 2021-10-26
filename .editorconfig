@@ -1,0 +1,15 @@
+root = verdadero
+
+[ * ]
+juego de caracteres = utf-8
+end_of_line = lf
+insert_final_newline = true
+sangría_estilo = espacio
+indent_size = 5
+trim_trailing_whitespace = verdadero
+
+[ * .md ]
+trim_trailing_whitespace = falso
+
+[ * . {yml, yaml} ]
+indent_size = 3
